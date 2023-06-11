@@ -32,7 +32,7 @@ const prevPage = () => {
 //data
 const headers: Header[] = [
     { text: "", value: "location", width: 40 },
-    { text: "Persona No.", value: "personNumber", width: 110},
+    { text: "Persona No.", value: "personNumber"},
     { text: "Tipo Domicilio", value: "type", width: 140},
     { text: "Calle", value: "street"},
     { text: "Número", value: "number"},
