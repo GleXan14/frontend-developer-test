@@ -1,0 +1,139 @@
+{
+    "clients":[
+        {
+            "personNumber": 306,
+            "type": "Oficina Principal",
+            "street": "Ave. Winton Churchill",
+            "number": "1020",
+            "sector": "Evaristo Morales",
+            "province": "Distrito Nacional",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 306,
+            "type": "Sucursal",
+            "street": "Paseo Oeste",
+            "number": "S/N",
+            "sector": "La Rosaelda",
+            "province": "Santiago de Los Caballeros",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 306,
+            "type": "Trabajo",
+            "street": "Calle Rafael Augusto Sanchez",
+            "number": "S/N",
+            "sector": "Evaristo Morales",
+            "province": "Distrito Nacional",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 306,
+            "type": "Sucursal",
+            "street": "Manuel de Jesus Troncoso",
+            "number": "42a",
+            "sector": "La Romana",
+            "province": "La Romana",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 306,
+            "type": "Veraneo",
+            "street": "Calle Luis Alberty",
+            "number": "156",
+            "sector": "Naco",
+            "province": "Distrito Nacional",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 945,
+            "type": "Veraneo",
+            "street": "Calle Principal",
+            "number": "240",
+            "sector": "Arroyo Hondo",
+            "province": "Puerto Plata",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 578,
+            "type": "Otro",
+            "street": "Calle Principal",
+            "number": "42B",
+            "sector": "Bella Vista",
+            "province": "La Romana",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 711,
+            "type": "Sucursal",
+            "street": "Calle Principal",
+            "number": "S/N",
+            "sector": "Ensanche Naco",
+            "province": "Distrito Nacional",
+            "state": "Inactivo"
+        },
+        {
+            "personNumber": 309,
+            "type": "Trabajo",
+            "street": "Calle Principal",
+            "number": "44",
+            "sector": "Gascue",
+            "province": "Santiago de Los Caballeros",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 578,
+            "type": "Trabajo",
+            "street": "Calle Principal",
+            "number": "42B",
+            "sector": "Piantini",
+            "province": "San Pedro de Macorís",
+            "state": "Inactivo"
+        },
+        {
+            "personNumber": 946,
+            "type": "Otro",
+            "street": "Calle Principal",
+            "number": "240",
+            "sector": "Arroyo Hondo",
+            "province": "La Romana",
+            "state": "Inactivo"
+        },
+        {
+            "personNumber": 652,
+            "type": "Residencia",
+            "street": "Calle Principal",
+            "number": "A-2",
+            "sector": "Bella Vista",
+            "province": "Distrito Nacional",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 942,
+            "type": "Oficina Principal",
+            "street": "Calle Principal",
+            "number": "240",
+            "sector": "Arroyo Hondo",
+            "province": "Puerto Plata",
+            "state": "Activo"
+        },
+        {
+            "personNumber": 201,
+            "type": "Residencia",
+            "street": "Calle Principal",
+            "number": "240",
+            "sector": "Piantini",
+            "province": "La Romana",
+            "state": "Inactivo"
+        },
+        {
+            "personNumber": 622,
+            "type": "Veraneo",
+            "street": "Calle Principal",
+            "number": "42B",
+            "sector": "Ensanche Naco",
+            "province": "San Pedro de Macorís",
+            "state": "Activo"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+
+
+header{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 48px;
+
+    background: #F4F6FA;
+    border-bottom: 2px solid #dfdfdf60;
+
+    .header-title{
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        &-icon{
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            padding: 4px;
+            border-radius: 100px;
+            margin-right: 12px;
+        }
+
+        h2{
+            color: #555555;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 30.46px;
+        }
+    }
+
+    .header-navbar{
+        position: relative;
+        display: flex;
+
+        &-edit{
+            position: relative;
+            background: #FFFFFF;
+            padding: 6px 10px;
+            border: 1px solid transparent;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: .1s;
+
+            span{
+                color: #273F70;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 15px;
+                margin-left: 4px;
+            }
+
+            &:hover{
+                border-color:#273F70;
+            }
+        }
+
+        &-close{
+            position: relative;
+            background: #FFFFFF;
+            border: 1px solid transparent;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05);
+            margin-left: 15px;
+            padding: 10px;
+            border-radius: 6px;
+            transition: .1s;
+            cursor: pointer;
+
+            &:hover{
+                border-color: #273F70;
+            }
+        }
+    }
+
+    @media (max-width:540px){
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .header-title{
+            margin-bottom: 10px;
+
+            h2{
+                text-align: center;
+            }
+        }
+    }
+}

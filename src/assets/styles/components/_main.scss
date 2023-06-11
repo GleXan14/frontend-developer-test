@@ -1,0 +1,27 @@
+
+main{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+
+    .main-container{
+        position: relative;
+        width: 100%;
+        max-width: 1920px;
+        
+        &>h2{
+            color:#555555;
+            font-size: 20px;
+            line-height: 22px;
+            font-weight: 600;
+        }
+    
+        &>hr{
+            height: 1px;
+            border: 2px solid #F5F5F8;
+            margin: 17px 0
+        }
+    }
+}

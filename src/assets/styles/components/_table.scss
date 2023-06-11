@@ -1,0 +1,175 @@
+
+
+section.table-section{
+    position: relative;
+    
+    .table-header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 17px;
+
+        &-search{
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            span{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 17px;
+                color: #555555;
+            }
+
+            .search-container{
+                position: relative;
+
+                svg{
+                    position: absolute;
+                    z-index: 999;
+                    left: 20px;
+                    bottom: 10px;
+                }
+
+                .search-input{
+                    position: relative;
+                    margin-left: 12px;
+    
+                    background: #FFFFFF;
+                    border: 1px solid #DFDFDF;
+                    border-radius: 6px;
+    
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 13px;
+                    color: #9B9B9B;
+
+                    width: 380px;
+                    padding: 10px;
+                    padding-left: 30px;
+                }
+            }
+        }
+
+        &-add{
+            background: #273F70;
+            display: flex;
+            align-items: center;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 7px;
+            cursor: pointer;
+
+            span{
+                color: #FFFFFF;
+                font-size: 14px;
+                line-height: 15.23px;
+                font-weight: 700;
+            }
+        }
+
+        @media (max-width:768px) {
+            
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: self-start;
+
+            &-search{
+                width: 100%;
+                .search-container{
+                    width: 90%;
+                    .search-input{
+                        width: 98%;
+                        padding: 10px;
+                        padding-left: 30px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .table-container{
+
+        .table{
+            --easy-table-header-font-size: 12px;
+            --easy-table-header-height: 44px;
+            --easy-table-header-font-color: #FFFFFF;
+            --easy-table-header-background-color: #273F70;
+            --easy-table-body-row-font-color: #555555;
+            --easy-table-body-row-background-color: #FFFFFF;
+            --easy-table-body-even-row-background-color: #FAFAFA;
+            --easy-table-body-row-font-size: 14px;
+            --easy-table-row-border: 2px solid #DFDFDF;
+
+            border: none;
+
+
+            .custom-header{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                &-text{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 13px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    
+                }
+
+                .sort-icon{
+                    margin-left: 5px;
+                }
+            }
+
+        }
+
+        .custom-table-footer{
+            margin-top: 10px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
+            &-index{
+                display: flex;
+                align-items: center;
+                
+                span{
+                    font-size: 12px;
+                    line-height: 13px;
+                    font-weight: 400;
+                    color: #9B9B9B;
+                }
+
+            }
+
+            &-pagination{
+                display: flex;
+                align-items: center;
+                margin-left: 12px;
+
+                .pagination-btn{
+                    background: #FFFFFF;
+                    padding: 8px;
+                    margin-left: 5px;
+                    border: 1px solid #DFDFDF;
+                    border-radius: 4px;
+                    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+                    cursor: pointer;
+
+                    &:disabled{
+                        
+                        svg{
+                            cursor: default;
+                            fill: #DFDFDF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
